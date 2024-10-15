@@ -12,6 +12,8 @@ func main() {
 
 	// short way to create a new varaible
 	enginner := "Abhay"
+	doctor := "Ayushi"
+	fmt.Println("Doctor: ", doctor)
 	fmt.Println("Enginner: ", enginner)
 
 	// types of data
@@ -40,4 +42,13 @@ func main() {
 	// deafult value is false
 	var boolvar bool = false
 	fmt.Println(boolvar)
+
+	// we also have aliases for int and float so we can also use that
+
+	// 4. Const
+	const token string = "Tasdkjasjkdh"
+	fmt.Println(token)
+
+	// for the tyep we can use
+	fmt.Printf("type of token is %T", token)
 }
