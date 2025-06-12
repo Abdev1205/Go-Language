@@ -33,4 +33,6 @@ func main() {
 		fmt.Println("Index: ", index, " Day: ", day)
 	}
 
+	// Almost loop is cleared
+
 }
